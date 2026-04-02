@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "papi_scoreboard",
+	"version": "${version}",
+	"name": "PAPI Scoreboard",
+	"description": "Allows Placeholder API to be used in scoreboards.",
+	"authors": [
+		"H3LiiiX"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/papi_scoreboard/icon.png",
+	"environment": "server",
+	"mixins": [
+		"papi_scoreboard.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"placeholder-api": "*"
+	}
+}

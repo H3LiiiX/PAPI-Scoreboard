@@ -1,0 +1,13 @@
+
+{
+  "required": true,
+  "package": "com.h3liiix.papi_scoreboard.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "papi_scoreboard-refmap.json",
+  "mixins": [
+    "ScoreboardPacketMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
